@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/josgarc0/godesde0/ejercicios"
+	defer_panic "github.com/josgarc0/godesde0/defer"
+	//"github.com/josgarc0/godesde0/modelos"
 	//"github.com/josgarc0/godesde0/iteraciones"
 )
 
@@ -36,5 +37,25 @@ func main() {
 
 	//iteraciones.Iterar()
 
-	ejercicios.TabladeMultiplicar()
+	//fmt.Println(ejercicios.TabladeMultiplicar())
+
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	//files.LeoArchivo2()
+	////funciones.Calculos()
+	//funciones.LlamarClosure()
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.Capacidad()
+
+	///mapas.MostrarMapas()
+	//users.AltaUsuario()
+	//Pedro := new(modelos.Hombre)
+	//ejer_interfaces.HumanoRespirando(Pedro)
+
+	//Maria := new(modelos.Mujer)
+	//ejer_interfaces.HumanoRespirando(Maria)
+
+	defer_panic.EjemploPanic()
 }
