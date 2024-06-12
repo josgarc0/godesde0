@@ -1,8 +1,10 @@
 package main
 
 import (
-	defer_panic "github.com/josgarc0/godesde0/defer"
+	//defer_panic "github.com/josgarc0/godesde0/defer"
 	//"github.com/josgarc0/godesde0/modelos"
+
+	"github.com/josgarc0/godesde0/middleware"
 	//"github.com/josgarc0/godesde0/iteraciones"
 )
 
@@ -57,5 +59,15 @@ func main() {
 	//Maria := new(modelos.Mujer)
 	//ejer_interfaces.HumanoRespirando(Maria)
 
-	defer_panic.EjemploPanic()
+	//defer_panic.EjemploPanic()
+	/*canal1 := make(chan bool)
+	go goroutines.MiNombreLento("jose manuel", canal1)
+	fmt.Println("Estoy aqui")
+
+	<-canal1 */
+
+	//webserver.MiWebServer()
+
+	middleware.MiMiddleware()
+
 }
